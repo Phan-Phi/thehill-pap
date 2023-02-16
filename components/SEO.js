@@ -16,7 +16,7 @@ const SEO = (props) => {
         description:
           description ||
           "Ứng dụng tích điểm, đổi ưu đãi tuyệt vời tại Việt Nam. Tải ngay để ăn uống và mua sắm thả ga cùng với ứng dụng Đổi Điểm.",
-        site_name: title,
+        site_name: "Đổi Điểm - Tích Bao Nhiêu Điểm, Đổi Bấy Nhiêu Tiền.",
         locale: locale ?? "vi",
         images: [
           {
