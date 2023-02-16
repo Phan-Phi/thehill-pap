@@ -6,13 +6,17 @@ const SEO = (props) => {
 
   const { title, description, image, locale } = props;
   const { favicon } = setting;
+  const headTitle =
+    title == undefined
+      ? undefined
+      : `${title} Đổi Điểm - Tích Bao Nhiêu Điểm, Đổi Bấy Nhiêu Tiền.`;
 
   return (
     <NextSeo
-      title={title || company || ""}
+      title={headTitle || ""}
       description={description || ""}
       openGraph={{
-        title: "Đổi Điểm - Tích Bao Nhiêu Điểm, Đổi Bấy Nhiêu Tiền.",
+        title: "asdas",
         description:
           description ||
           "Ứng dụng tích điểm, đổi ưu đãi tuyệt vời tại Việt Nam. Tải ngay để ăn uống và mua sắm thả ga cùng với ứng dụng Đổi Điểm.",
