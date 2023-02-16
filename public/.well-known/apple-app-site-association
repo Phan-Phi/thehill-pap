@@ -1,0 +1,20 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "ZAT2SHZZ65.com.hoangdung24.thehillcustomer",
+        "paths": [
+          "/customer/reset-password/*",
+          "/customer/verify-email/*"
+        ]
+      },
+      {
+        "appID": "ZAT2SHZZ65.com.hoangdung24.thehillstore",
+        "paths": [
+          "/store/reset-password/*"
+        ]
+      }
+    ]
+  }
+}

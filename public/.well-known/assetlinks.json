@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.hoangdung24.thehillcustomer",
+      "sha256_cert_fingerprints": [
+        "2D:F5:45:D5:98:AE:32:91:35:93:6C:F8:E5:B9:76:B0:68:19:4F:13:3E:41:D7:9D:85:7D:02:2C:7C:72:96:D4"
+      ]
+    }
+  }
+]
