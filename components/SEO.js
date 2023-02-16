@@ -16,7 +16,8 @@ const SEO = (props) => {
       title={headTitle || ""}
       description={description || ""}
       openGraph={{
-        title: "asdas",
+        title:
+          headTitle || "Đổi Điểm - Tích Bao Nhiêu Điểm, Đổi Bấy Nhiêu Tiền.",
         description:
           description ||
           "Ứng dụng tích điểm, đổi ưu đãi tuyệt vời tại Việt Nam. Tải ngay để ăn uống và mua sắm thả ga cùng với ứng dụng Đổi Điểm.",
