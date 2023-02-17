@@ -6,6 +6,7 @@ const SEO = (props) => {
 
   const { title, description, image, locale } = props;
   const { favicon } = setting;
+
   const headTitle =
     title == undefined
       ? undefined
@@ -13,7 +14,7 @@ const SEO = (props) => {
 
   return (
     <NextSeo
-      title={headTitle || ""}
+      title={headTitle || "Đổi Điểm - Tích Bao Nhiêu Điểm, Đổi Bấy Nhiêu Tiền."}
       description={description || ""}
       openGraph={{
         title:

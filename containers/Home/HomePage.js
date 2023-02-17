@@ -1,3 +1,4 @@
+import { get } from "lodash";
 import { Box } from "@mui/material";
 
 import AboutExchangePoint from "./components/AboutExchangePoint";
@@ -9,7 +10,6 @@ import Brand from "./components/Brand";
 import News from "./components/News";
 import SEO from "components/SEO";
 import { getSeoObject } from "utils/getSeoObject";
-import { get } from "lodash";
 
 const HomePage = ({ initData }) => {
   const [homeData, blogHome, brandHome] = initData;
