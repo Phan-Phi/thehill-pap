@@ -3,7 +3,6 @@ import { NextSeo } from "next-seo";
 
 const SEO = (props) => {
   const setting = useSetting();
-  console.log("🚀 ~ file: SEO.js:6 ~ SEO ~ setting", setting);
 
   const { title, description, image, locale } = props;
   const { favicon } = setting;
@@ -35,11 +34,11 @@ const SEO = (props) => {
       additionalLinkTags={[
         {
           rel: "icon",
-          href: favicon || "/fav.png",
+          href: favicon,
         },
         {
           rel: "apple-touch-icon",
-          href: favicon || "/fav.png",
+          href: favicon,
         },
       ]}
     />
