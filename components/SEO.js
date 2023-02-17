@@ -3,6 +3,7 @@ import { NextSeo } from "next-seo";
 
 const SEO = (props) => {
   const setting = useSetting();
+  console.log("🚀 ~ file: SEO.js:6 ~ SEO ~ setting", setting);
 
   const { title, description, image, locale } = props;
   const { favicon } = setting;
